@@ -23,7 +23,7 @@ header nav ul li:first-of-type{
     margin-right: 24px;
 }
 header nav li a{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -35,7 +35,7 @@ header nav ul li:first-of-type a{
     font-size: 12px;
 }
 header nav ul li:last-of-type a{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -62,7 +62,7 @@ header nav ul li:last-of-type a{
     text-align: center;
 }
 .main_banner h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -72,7 +72,7 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
 }
 .main_banner h1{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
@@ -81,7 +81,7 @@ header nav ul li:last-of-type a{
     margin-bottom: 18px;
 }
 .main_banner p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -102,7 +102,7 @@ header nav ul li:last-of-type a{
     text-align: center;
 }
 .get_in_touch h2{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -111,7 +111,7 @@ header nav ul li:last-of-type a{
     margin-bottom: 15px;
 }
 .get_in_touch h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -120,7 +120,7 @@ header nav ul li:last-of-type a{
     margin-bottom: 22px;
 }
 .get_in_touch a{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -144,3 +144,50 @@ header nav ul li:last-of-type a{
     margin-right: 6px;
     align-items: flex-end;
 }
+.information_block_1{
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.information_block_2{
+    background-image: url("../images/Palm.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.information_block_3{
+    background-image: url("../images/winter_mountain.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.info_block_article{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.info_block_article h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.info_block_article p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+

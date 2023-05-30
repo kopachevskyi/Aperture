@@ -71,6 +71,7 @@ header nav ul li:last-of-type a{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
+    margin-bottom: 1px;
 }
 .main_banner h1{
     font-family: 'Poppins', sans-serif;
@@ -80,6 +81,7 @@ header nav ul li:last-of-type a{
     line-height: 59px;
     color: #FFFFFF;
     margin-bottom: 18px;
+    margin-top: 0;
 }
 .main_banner p{
     font-family: 'Poppins', sans-serif;
@@ -120,10 +122,8 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     margin-bottom: 22px;
 }
-.get_in_touch a{
+.button{
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.4px;
@@ -135,7 +135,7 @@ header nav ul li:last-of-type a{
     display: inline-flex;
     align-items: center;
 }
-.get_in_touch a:before{
+.button:before{
     content:"";
     display: inline-block;
     width: 32px;
@@ -199,9 +199,7 @@ header nav ul li:last-of-type a{
     display: flex;
 }
 .widget_right_bottom li {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     line-height: 12px;
     color: #FFFFFF;
@@ -229,4 +227,65 @@ header nav ul li:last-of-type a{
     background-image: url("../images/icon4.svg");
     width: 10px;
     margin-right: 5px;
+}
+.what_we_do{
+    background-color: #000000;
+    padding: 113px 0 84px;
+}
+.what_we_do h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.what_we_do .container{
+    max-width: 1200px;
+    margin: auto;
+}
+.what_we_do .article_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 16px;
+}
+.what_we_do article{
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.what_we_do article img{
+    display: block;
+    width: 100%;
+}
+.what_we_do .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+.description h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px
+}
+.description p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 15px;
 }

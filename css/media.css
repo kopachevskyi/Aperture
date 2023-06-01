@@ -24,7 +24,7 @@
     .past_clients{
         padding: 113px 0 113px;
     }
-    .clients_list li{
+    .clients_list a{
         margin: 0 15px 20px;
     }
     .clients_list {

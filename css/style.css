@@ -320,3 +320,31 @@ header nav ul li:last-of-type a{
     justify-content: space-between;
     align-items: center;
 }
+.past_clients .clients_list a{
+    max-width: 128px;
+    display: inline-block;
+}
+.past_clients .owl-item{
+    text-align: center;
+}
+.past_clients .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.past_clients .owl-nav .owl-prev{
+    background-image: url("https://tpanda1983.github.io/california/images/chevron.svg")!important;
+    width: 14px;
+    height: 26px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    background-color: #FFFFFF!important;
+}
+.past_clients .owl-nav .owl-next{
+    background-color: green!important;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -20px;
+    top: 30px;
+}

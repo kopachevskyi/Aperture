@@ -331,22 +331,24 @@ header nav ul li:last-of-type a{
     display: flex;
     align-items: center;
 }
-.past_clients .owl-nav .owl-prev{
-    background-image: url("https://tpanda1983.github.io/california/images/chevron.svg")!important;
-    width: 14px;
-    height: 26px;
+.past_clients .container .clients_list .owl-nav .owl-prev {
+    background-color: white;
+    width: 25px;
+    height: 25px;
     position: absolute;
     left: -20px;
     top: 30px;
-    background-color: #FFFFFF!important;
+
 }
-.past_clients .owl-nav .owl-next{
-    background-color: green!important;
-    width: 20px;
-    height: 20px;
+
+.past_clients .container .clients_list .owl-nav .owl-next {
+    background-color: white;
+    width: 25px;
+    height: 25px;
     position: absolute;
     right: -20px;
     top: 30px;
+
 }
 footer{
     padding: 100px 0;
